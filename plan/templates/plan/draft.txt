@@ -1,0 +1,34 @@
+The lower table
+_______________________________________________
+        <table class="table">
+  <thead class="thead-dark">
+    <tr>
+        <th scope="col">old_name</th>
+        <th scope="col">old_speed</th>
+        <th scope="col">old_quota</th>
+        <th scope="col">old_price</th>
+        <th scope="col">new_name</th>
+        <th scope="col">new_speed</th>
+        <th scope="col">new_quota</th>
+        <th scope="col">new_price</th>
+        <th scope="col">No_of_movements</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for lower in lowers %}
+    <tr>
+        <th>{{ lower.old_plan_name }}</th>
+        <th>{{ lower.old_plan_speed }}</th>
+        <th>{{ lower.old_plan_quota }}</th>
+        <th>{{ lower.old_plan_price }}</th>
+        <th>{{ lower.new_plan_name }}</th>
+        <th>{{ lower.new_plan_speed }}</th>
+        <th>{{ lower.new_plan_quota }}</th>
+        <th>{{ lower.new_plan_price }}</th>
+        <th>{{ lower.number_of_movements }}</th>
+
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+_________________________________________________________________________

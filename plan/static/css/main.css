@@ -1,0 +1,15 @@
+header{
+    text-align: center;
+}
+h1{
+    color: blue;
+    font-weight: bolder;
+    text-align: center;
+}
+table{
+    text-align: center;
+}
+table thead{
+    text-align: center;
+    text-transform: capitalize;
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% extends 'plan/base.html' %}
+{% block contact %}
+<h1 class="text-capitalize"> the all number of movements {{ all_data }} </h1>
+
+    <div class="jumbotron">
+        <p class="text-capitalize">number of customers changed to Super plan: <strong>{{ num_to_super }}</strong> </p>
+        <p class="text-capitalize">the percentage of number of customers changed to Super plan: <strong>{{ per_to_super }} %</strong></p>
+    </div>
+
+    <div class="jumbotron">
+        <p class="text-capitalize">number of customers changed to mega or ultra plan: <strong>{{ num_super_to }}</strong> </p>
+        <p class="text-capitalize">the percentage of number of customers changed to mega or ultra plan: <strong>{{ per_super_to }} %</strong></p>
+    </div>
+
+
+{% endblock %}

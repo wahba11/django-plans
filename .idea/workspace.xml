@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="793d0b2a-0849-4762-9cc9-516fd52c16a2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lGiSiMqf0gPy6cqVwd5vv3dCqy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/plan/static" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PythonProjects\django\weplans\planenv\plan\static" />
+      <recent name="E:\PythonProjects\django\weplans\planenv\plan\static\css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="planenv" type="Python.DjangoServer" factoryName="Django server">
+      <module name="planenv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="793d0b2a-0849-4762-9cc9-516fd52c16a2" name="Default Changelist" comment="" />
+      <created>1607229829084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607229829084</updated>
+      <workItem from="1607229832270" duration="10485000" />
+      <workItem from="1607260239333" duration="10838000" />
+      <workItem from="1607296341241" duration="5128000" />
+      <workItem from="1607329335246" duration="8987000" />
+      <workItem from="1607766726081" duration="16465000" />
+      <workItem from="1607880634487" duration="6234000" />
+      <workItem from="1607936568227" duration="3407000" />
+      <workItem from="1608027623806" duration="1734000" />
+      <workItem from="1608112692601" duration="916000" />
+      <workItem from="1608238916320" duration="2631000" />
+      <workItem from="1608456164733" duration="14780000" />
+      <workItem from="1608476404614" duration="6786000" />
+      <workItem from="1608543788733" duration="2813000" />
+      <workItem from="1608930368183" duration="949000" />
+      <workItem from="1608953408803" duration="14516000" />
+      <workItem from="1609147352777" duration="2392000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1609147504065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1609147504065" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1609149273729">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1609149273729" />
+  </component>
+</project>
