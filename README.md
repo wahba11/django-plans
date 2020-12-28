@@ -1,1 +1,1 @@
-"# django-weplans" 
+"# django-plans" 
