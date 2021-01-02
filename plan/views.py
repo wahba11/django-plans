@@ -1,6 +1,7 @@
 import io
 
 from django.contrib import messages
+from django.shortcuts import redirect
 from django.db.models import F, Q, Sum
 from django.http import HttpResponse
 from django.shortcuts import render
@@ -88,7 +89,7 @@ def delete_all(request):
     old = Plan.objects.all()
     old.delete()
 
-    return render(request, 'plan/home.html')
+    return redirect('plan:home')
 
 
 def lower_higher(request):
@@ -244,7 +245,7 @@ def test(request):
 ################# Upload Data ######################
 def upload_csv(request):
     """ Upload The Whole Data """
-    template = 'plan/home.html'
+    template = 'plan/upload_csv.html'
     if request.method == 'GET':
         return render(request, template)
 
@@ -270,4 +271,4 @@ def upload_csv(request):
             )
 
     context = {}
-    return render(request, template, context)
+    return redirect('plan:home')

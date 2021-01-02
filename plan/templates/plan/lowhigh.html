@@ -20,36 +20,36 @@
       <div class="card-body">
           <div id="price">
             <table class="table">
-  <thead class="thead-dark">
-    <tr>
-      <th scope="col">Change</th>
-      <th scope="col">Number</th>
-      <th scope="col">Percentage</th>
-      <th scope="col">Download</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Low To High</th>
-      <td>{{ highers }}</td>
-      <td>{{ higher_per }} %</td>
-      <td><a class="btn btn-dark" href="{% url 'plan:export_low_csv' %}">download</a></td>
-    </tr>
-  <tr>
-      <th scope="row">High To Low</th>
-      <td>{{ lowers }}</td>
-      <td>{{ lower_per }} %</td>
-      <td><a class="btn btn-dark" href="{% url 'plan:export_high_csv' %}">download</a></td>
-    </tr>
-  <tr>
-      <th scope="row">Same Price</th>
-      <td>{{ same_prices }}</td>
-      <td>{{ same_per }} %</td>
-      <td><a class="btn btn-dark" href="{% url 'plan:export_same_csv' %}">download</a></td>
-    </tr>
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Change</th>
+                  <th scope="col">Number</th>
+                  <th scope="col">Percentage</th>
+                  <th scope="col">Download</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Low To High</th>
+                  <td>{{ highers }}</td>
+                  <td>{{ higher_per }} %</td>
+                  <td><a class="btn btn-dark" href="{% url 'plan:export_low_csv' %}">download</a></td>
+                </tr>
+              <tr>
+                  <th scope="row">High To Low</th>
+                  <td>{{ lowers }}</td>
+                  <td>{{ lower_per }} %</td>
+                  <td><a class="btn btn-dark" href="{% url 'plan:export_high_csv' %}">download</a></td>
+                </tr>
+              <tr>
+                  <th scope="row">Same Price</th>
+                  <td>{{ same_prices }}</td>
+                  <td>{{ same_per }} %</td>
+                  <td><a class="btn btn-dark" href="{% url 'plan:export_same_csv' %}">download</a></td>
+                </tr>
 
-  </tbody>
-</table>
+              </tbody>
+            </table>
           </div>
           <div>
             <img src="data:image/png;base64,{{ chart | safe }}">
@@ -57,20 +57,35 @@
       </div>
     </div>
   </div>
+
   <div class="card">
     <div class="card-header" id="headingTwo">
       <h2 class="mb-0">
         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Collapsible Group Item #2
+          <strong>Same Plan</strong>
         </button>
       </h2>
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          <div class="jumbotron">
+            <p class="text-capitalize">number of customers still in Super plan: <strong>{{ supers }}</strong> </p>
+            <p class="text-capitalize">the percentage of number of customers still in Super plan: <strong>{{ super_per }} %</strong></p>
+          </div>
+
+          <div class="jumbotron">
+            <p class="text-capitalize">number of customers still in Ultra plan: <strong>{{ ultras }}</strong> </p>
+            <p class="text-capitalize">the percentage of number of customers still in Ultra plan: <strong>{{ ultra_per }} %</strong></p>
+          </div>
+
+          <div class="jumbotron">
+        <p class="text-capitalize">number of customers still in mega plan: <strong>{{ megas }}</strong> </p>
+        <p class="text-capitalize">the percentage of number of customers still in mega plan: <strong>{{ mega_per }} %</strong></p>
+    </div>
       </div>
     </div>
   </div>
+
   <div class="card">
     <div class="card-header" id="headingThree">
       <h2 class="mb-0">
